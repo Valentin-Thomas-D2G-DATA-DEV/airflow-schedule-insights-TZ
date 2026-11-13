@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "airflow-schedule-insights"
-version = "0.2.2"
-description = "An Apache Airflow 3 plugin that visualizes DAG runs in a Gantt chart, predicts future cron and asset-triggered runs, and identifies DAGs that won't execute. Enhance your workflow monitoring and planning with intuitive visualizations."
+name = "airflow-schedule-insights-custom"
+version = "0.2.3"
+description = "Version corrigé sur le problème de time zone du plugin airflow-schedule-insights"
 license = "MIT"
-authors = ["Ponder"]
+authors = ["Stef"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -54,5 +54,5 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.urls]
-homepage = "https://github.com/ponderedw/airflow-schedule-insights"
+homepage = "https://github.com/Valentin-Thomas-D2G-DATA-DEV/airflow-schedule-insights-TZ"
 
